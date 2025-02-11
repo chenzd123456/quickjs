@@ -121,7 +121,7 @@ static void *__builtin_frame_address(unsigned int level) {
 #if defined(_MSC_VER)
 #define minimum_length(n) n
 #else
-#define minimum_length(n) static n
+#define minimum_length(n) n
 #endif
 
 typedef int BOOL;
